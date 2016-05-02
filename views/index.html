@@ -1,0 +1,138 @@
+<!doctype html>
+<!--[if IE 7]>  <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>  <html class="no-js lt-ie10 lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>  <html class="no-js lt-ie10 ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+<head>
+    <script></script>
+    <meta charset="utf-8" />
+    <title>Mercado Libre - Prueba para front-end</title>
+
+    <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="cleartype" content="on">
+
+    <!--[if IE 8]>
+    <script src="http://ui.mlstatic.com/polyfills/es5/4.1.13/es5-shim.min.js"></script>
+    <script src="http://ui.mlstatic.com/polyfills/es5/4.1.13/es5-sham.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="public/app.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="ml-header" role="header">
+            <p>Mercado Libre - Front-end Test</p>
+        </div>
+    </header>
+    <section class="ch-g1">
+        <div class="ch-g1">
+            <div class="ch-box-lite main-title-container">
+                <h1 id="prodct-title" class="prodct-title" role>Ipad Mini Apple 16 Gb Wifi  LED 7.9</h1>
+            </div>
+        </div>
+        <!-- primer componente foto con zoom -->
+        <div class="ch-g2-5">
+            <div class="ch-box-lite m-clearfix zoooom">
+                <div class="mesh-row">
+                    <div class="mesh-col-m-3">
+                        <a id="zoom-default" class="zoom" href="static/ninja.png" target="_blank">
+                            <figure>
+                                <img src="static/ninja.png" alt="HTML5" alt="foto del ninja"/>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- segundo componente  -->
+        <div class="ch-g3-5">
+            <!-- informacion del Producto -->
+            <div class="information-container">
+                <span class="hide" id="button-buy">Buy</span>
+                <div class="product-price-container">
+                    <p class="product-price"> $ 4.799 <sup class="red-p">99</sup></p>
+                </div>
+                <div class="buy-opts-p-container">
+                    <span class="buy-opts-qty" aria-label="Quantity">Quantity</span>
+                    <select class="buy-options--select" autocomplete="off" aria-required="true" aria-valuemin="1" aria-valuemax="3">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div class="buy-opts-p-container">
+                    <span class="buy-opts-pymt" aria-label="Payments">Payments</span>
+                    <select class="buy-options--select" autocomplete="off" aria-valuemin="1" aria-valuemax="12">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>6</option>
+                        <option>12</option>
+                    </select>
+                </div>
+                <div class="ch-actions">
+                    <button class="ch-btn" value="buy" role="button"ara-decribedby="button-buy">BUY</button>
+                </div>
+                <div>
+                    <p class="gray-p">Mercado libre isn't the owner of this product.</p>
+                </div>
+            </div>
+            <!-- Slidder de mas productos -->
+            <div>
+                <div class="ch-box-lite" role="slidder">
+                    <h2 id="carousel">More products like this</h2>
+                    <div class="myCarousel ch-carousel">
+                        <ul>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                            <li><figure><img src="static/ninja.png" alt="foto del ninja"></figure></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="tabs-container">
+
+            <a href="#tab1" class="ch-tab">Product description</a>
+            <a href="#tab2" class="ch-tab">Questions</a>
+
+            <a id="tab1"></a>
+            <a id="tab2"></a>
+
+            <div class="tab tab1">
+                <p>Awesome ninja prodct por kids. Its  must for the children! So go for it</p>
+            </div>
+            <div class="tab tab2 default-tab">
+                <p class="p-info">Buyer</p>
+                <div class="ch-box-info">
+                    <p>Do you have any macbook pro?</p>
+                </div>
+                <p class="p-ok">Seller</p>
+                <div class="ch-box-ok">
+                    <p>Yes, i have. Just click on buy.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="public/app.js"></script>
+</body>
+</html>

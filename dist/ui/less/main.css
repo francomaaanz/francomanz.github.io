@@ -1,0 +1,86 @@
+#prodct-title {
+  text-align: left;
+  font-size: 56px;
+  margin-left: 8%;
+}
+.red-p {
+  color: #990000;
+}
+.information-container {
+  padding: 15px;
+}
+.information-container .product-price-container {
+  margin-bottom: 15px;
+}
+.information-container .product-price-container .product-price {
+  color: #990000;
+  font-size: 36px;
+}
+.information-container .buy-opts-p-container {
+  padding: 3px 0;
+}
+.information-container .buy-opts-p-container .buy-opts-qty {
+  font-size: 16px;
+  margin-right: 27px;
+}
+.information-container .buy-opts-p-container .buy-opts-pymt {
+  font-size: 16px;
+  margin-right: 15px;
+}
+.information-container .buy-opts-p-container .buy-options--select {
+  width: 50px;
+}
+.ch-g1 .ch-box-lite {
+  border: 0;
+}
+.ch-g1 .zoom-img-container {
+  border: 1px #eee;
+  border-radius: 3px;
+}
+hr {
+  border: solid 1px #eee;
+}
+.gray-p {
+  color: #888;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block !important;
+}
+.tabs-container {
+  margin: 30px 0;
+  padding: 15px;
+}
+.tabs-container .tab {
+  display: none;
+}
+.tabs-container .tab1 {
+  padding: 15px;
+}
+.tabs-container .tab2 {
+  padding: 15px;
+}
+.tabs-container .tab2 .p-ok {
+  color: #468847;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.tabs-container .tab2 .p-info {
+  color: #3a87ad;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.tabs-container .default-tab {
+  display: block;
+}
+.tabs-container :target ~ .default-tab {
+  display: none;
+}
+.tabs-container #tab1:target ~ .tab1,
+.tabs-container #tab2:target ~ .tab2 {
+  display: block;
+}
